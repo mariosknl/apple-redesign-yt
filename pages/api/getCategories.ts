@@ -14,6 +14,6 @@ type Data = {
 
 export default async function getCategories(req: NextApiRequest, res: NextApiResponse<Data>) {
   const categories = await sanityClient.fetch(query);
-  console.log(categories);
+
   res.status(200).json({ categories });
 }
