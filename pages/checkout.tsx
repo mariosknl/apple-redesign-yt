@@ -6,6 +6,7 @@ import { ChevronDownIcon } from "@heroicons/react/24/solid";
 import Button from "../components/Button";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import CheckoutProduct from "../components/CheckoutProduct";
 
 type Props = {};
 
@@ -26,15 +27,15 @@ const checkout = (props: Props) => {
   }, [items]);
 
   return (
-    <div>
+    <div className="min-h-screen overflow-hidden bg-[#E7ECEE]">
       <Head>
         <title>Bag - Apple</title>
         <link rel="stylesheet" href="/favicon.ico" />
       </Head>
       <Header />
 
-      <main>
-        <div>
+      <main className="mx-auto max-w-5xl pb-24">
+        <div className="px-5">
           <h1 className="my-4 text-3xl font-semibold lg:text-4xl">
             {items.length > 0 ? "Review your bag." : "Your bag is empty."}
           </h1>
@@ -45,7 +46,13 @@ const checkout = (props: Props) => {
           )}
         </div>
 
-        {items.length > 0 && <div></div>}
+        {items.length > 0 && (
+          <div className="mx-5 md:mx-8">
+            {Object.entries(groupedItemsInBasket).map(([key, items]) => (
+              <CheckoutProduct key={key} items={items} id={key} />
+            ))}
+          </div>
+        )}
       </main>
     </div>
   );
