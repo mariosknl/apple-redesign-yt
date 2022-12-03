@@ -1,17 +1,26 @@
+import { Tab } from "@headlessui/react";
 import type { GetServerSideProps } from "next";
 import Head from "next/head";
-import Image from "next/image";
 import Header from "../components/Header";
 import Landing from "../components/Landing";
-import { Tab } from "@headlessui/react";
+import Product from "../components/Product";
 import { fetchCategories } from "../utils/fetchCategories";
+import { fetchProducts } from "../utils/fetchProducts";
 
 interface Props {
   categories: Category[];
+  products: Product[];
 }
 
-const Home = ({ categories }: Props) => {
-  console.log(categories);
+const Home = ({ categories, products }: Props) => {
+  console.log(products);
+
+  const showProducts = (category: number) => {
+    return products
+      .filter((product) => product.category._ref === categories[category]._id)
+      .map((product) => <Product product={product} key={product._id} />); // filter products by category
+  };
+
   return (
     <div className="">
       <Head>
@@ -37,7 +46,7 @@ const Home = ({ categories }: Props) => {
                   key={category._id}
                   id={category._id}
                   className={({ selected }) =>
-                    `whitespace-nowrap rounded-t-lg py-3 px-5 text-sm font-light outline-none md:py-4 md:text-base ${
+                    `whitespace-nowrap rounded-t-lg py-3 px-5 text-sm font-light outline-none md:py-4 md:px-6 md:text-base ${
                       selected
                         ? "borderGradient bg-[#35383C] text-white"
                         : "border-b-2 border-[#35383C] text-[#747474]"
@@ -49,10 +58,10 @@ const Home = ({ categories }: Props) => {
               ))}
             </Tab.List>
             <Tab.Panels className="mx-auto max-w-fit pt-10 pb-24 sm:px-4">
-              {/* <Tab.Panel className="tabPanel">{showProducts(0)}</Tab.Panel>
-								<Tab.Panel className="tabPanel">{showProducts(1)}</Tab.Panel>
-								<Tab.Panel className="tabPanel">{showProducts(2)}</Tab.Panel>
-								<Tab.Panel className="tabPanel">{showProducts(3)}</Tab.Panel> */}
+              <Tab.Panel className="tabPanel">{showProducts(0)}</Tab.Panel>
+              <Tab.Panel className="tabPanel">{showProducts(1)}</Tab.Panel>
+              <Tab.Panel className="tabPanel">{showProducts(2)}</Tab.Panel>
+              <Tab.Panel className="tabPanel">{showProducts(3)}</Tab.Panel>
             </Tab.Panels>
           </Tab.Group>
         </div>
@@ -64,12 +73,14 @@ const Home = ({ categories }: Props) => {
 export default Home;
 
 // Backend Code
-export const getServerSideProps: GetServerSideProps<Props> = async () => {
+export const getServerSideProps: GetServerSideProps<Props> = async (context) => {
   const categories = await fetchCategories();
+  const products = await fetchProducts();
 
   return {
     props: {
       categories,
+      products,
     },
   };
 };
