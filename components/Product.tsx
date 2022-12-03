@@ -4,6 +4,7 @@ import React from "react";
 import { urlFor } from "../sanity";
 import { useDispatch } from "react-redux";
 import { addToBasket } from "../redux/basketSlice";
+import toast from "react-hot-toast";
 
 type Props = {
   product: Product;
@@ -14,6 +15,10 @@ const Product = ({ product }: Props) => {
 
   const addItemToBasket = () => {
     dispatch(addToBasket(product));
+
+    toast.success(`${product.title} added to basket!`, {
+      position: "bottom-center",
+    });
   };
 
   return (
