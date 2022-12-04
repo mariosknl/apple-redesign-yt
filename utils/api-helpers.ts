@@ -12,13 +12,13 @@ export async function fetchPostJSON(url: string, data?: {}) {
       },
       redirect: "follow", // manual, *follow, error
       referrerPolicy: "no-referrer", // no-referrer, *client
-      body: JSON.stringify(data), // body data type must match "Content-Type" header
+      body: JSON.stringify(data || {}), // body data type must match "Content-Type" header
     });
     return await response.json(); // parses JSON response into native JavaScript objects
-  } catch (error) {
-    if (error instanceof Error) {
-      throw new Error(error.message);
+  } catch (err) {
+    if (err instanceof Error) {
+      throw new Error(err.message);
     }
-    throw error;
+    throw err;
   }
 }
