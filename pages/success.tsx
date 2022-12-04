@@ -5,6 +5,7 @@ import {
   ShoppingCartIcon,
 } from "@heroicons/react/24/outline";
 import { GetServerSideProps } from "next";
+import { useSession } from "next-auth/react";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -26,7 +27,7 @@ function Success({ products }: Props) {
   const [mounted, setMounted] = useState(false);
   const [showOrderSummary, setShowOrderSummary] = useState(false);
   const subtotal = products.reduce((acc, product) => acc + product.price.unit_amount / 100, 0);
-  // const { data: session } = useSession();
+  const { data: session } = useSession();
 
   useEffect(() => {
     setMounted(true);
@@ -74,7 +75,7 @@ function Success({ products }: Props) {
             <div>
               <p className="text-sm text-gray-600">Order #{session_id?.slice(-5)}</p>
               <h4 className="text-lg">
-                {/* Thank you {session ? session.user?.name?.split(" ")[0] : "Guest"} */}
+                Thank you {session ? session.user?.name?.split(" ")[0] : "Guest"}
               </h4>
             </div>
           </div>
