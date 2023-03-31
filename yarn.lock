@@ -2144,9 +2144,9 @@ nanoid@^3.3.4:
   integrity sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==
 
 next-auth-sanity@^1.4.4:
-  version "1.4.9"
-  resolved "https://registry.yarnpkg.com/next-auth-sanity/-/next-auth-sanity-1.4.9.tgz#eb5540f9984688f3af73416dc1fbe9ba0239df2f"
-  integrity sha512-ijuizapblXEu4BPtbuYt+Cc7lvIyQM/kjs6IVMGshwDPFhyhCNWCQ/WVK9M3rntM+v/3L0XC47nN3WXZa8uBag==
+  version "1.4.10"
+  resolved "https://registry.yarnpkg.com/next-auth-sanity/-/next-auth-sanity-1.4.10.tgz#b5e8f3076a317099d0019826c6f41096283ae60d"
+  integrity sha512-rWoJmWwg0p4hu5NxMDKrYWSqwYMmWM/4fvNiYiNj0s1F4lzqEFsGDYZ4+iJb6FaYj2dz/yWUmYEwDxcGHELHtQ==
   dependencies:
     "@sanity/uuid" "^3.0.1"
     argon2 "^0.30.3"
