@@ -1223,9 +1223,9 @@
     reselect "^4.1.8"
 
 "@sanity/client@^6.1.5":
-  version "6.1.5"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.1.5.tgz#4cd4b5f57f4c89598e6c42bbebde65778dec559b"
-  integrity sha512-X0Du8McoE2564AqAuSlwsQ2i9cHMfPos/a+cslmcTWXY3leV/QKzpqHQomuDlfEmkIhoFZW1UL33+MTxw7+Miw==
+  version "6.1.7"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.1.7.tgz#15e6e61ddfbf3fabb4b9f8e60c03092839317ee4"
+  integrity sha512-crleZDBic3VpmBhIuiVZNkJMxAWE/fj5v+hHBXt+2psW1CJrvBdTLX14f4cqC40W1YDDE4ZGrDkYuph6Y6/YzQ==
   dependencies:
     "@sanity/eventsource" "^5.0.0"
     get-it "^8.1.0"
@@ -1261,10 +1261,10 @@
   resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-1.0.2.tgz#1ff7259e9bad6bfca4169f21c53a4123f6ac78c3"
   integrity sha512-C4+jb2ny3ZbMgEkLd7Z3C75DsxcTEoE+axXQJsQ75ou0AKWGdVsP351hqK6mJUUxn5HCSlu3vznoh7Yljye4cQ==
 
-"@sanity/preview-kit@2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-2.3.0.tgz#425238161005e8fcc91b48477892ac21e32d7c75"
-  integrity sha512-gl71G3JyRUbSOgu6b4NPLgSVLaqrdkC/reTUM/8T1TD7r+Ro2z7wRHO28XjmJ/tq2D2Nu4lGrl/cw+FbjE8i0g==
+"@sanity/preview-kit@2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-2.3.1.tgz#9501987c587cc0fd97eeaa73389199874afc9b95"
+  integrity sha512-QccmNBuB+5NF6nUbhmsKWhfshVsb/rNHJ5zEqySoqBPu/QYttSVX4xIV93et6eJNPMvumU1VP0Z3EfSFT30N/A==
   dependencies:
     "@sanity/eventsource" "^5.0.0"
     "@sanity/groq-store" "2.3.0"
@@ -1278,9 +1278,9 @@
     use-sync-external-store "1.2.0"
 
 "@sanity/types@3":
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/@sanity/types/-/types-3.14.0.tgz#7635e3047c2df2fa6c3f8994d3153664bfe888ce"
-  integrity sha512-Vtfu11iz9rEhU5LAJLDSiGXPAs/HHCXiR+grhkuvMQdpDTgVy5c2nzYDxkWn2oiXpBiOp3KVTKIWbjJO5dxpMw==
+  version "3.14.1"
+  resolved "https://registry.yarnpkg.com/@sanity/types/-/types-3.14.1.tgz#c01e37087622260b50094649ef575da6a60beb47"
+  integrity sha512-13qj14LI69VsGE4+H+XrdFC7yUgHHtIHHqkqygBtvPAqfteVwDEG8KyWJ1+ZMXMUnz89fuTeP721DC3+AlrmPg==
   dependencies:
     "@sanity/client" "^6.1.5"
     "@types/react" "^18.0.25"
@@ -1846,9 +1846,9 @@ get-intrinsic@^1.0.2:
     has-symbols "^1.0.3"
 
 get-it@^8.1.0:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.2.0.tgz#b37bcac0f196d7fece2e57d422a4867f8600edd5"
-  integrity sha512-2bP102AY795kVmqE5roTc9pnbji3Wzcm8q9zXh3pDrmkqIYwonFMqwnjyOMZtyHsGvzwe/o/LUAS/vA0VKBQFg==
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.3.0.tgz#376ab5f13a75923f737491b6665ee43674627e1f"
+  integrity sha512-R8rM45CWEI1shdTegGCs/9yy/z6DgwS5XMVIVZtSVpu0XABxPp3PA3TCl6mzVQOcHecbqD+VUFg1poAtBtO19A==
   dependencies:
     debug "^4.3.4"
     decompress-response "^7.0.0"
@@ -1915,9 +1915,9 @@ groq-js@1:
   integrity sha512-Kml1SgKotOOEmm1rK1w/K4UprIWJ/UU0SzeO2dPy8ab2wcAGfE82X5CTdaD1AMaP+40Ug1gAsVgPF5S2H/fcPw==
 
 groq@3, groq@^3.0.0:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-3.14.0.tgz#28759d4bba2bfb3c656707153fb25d6d3a2313f2"
-  integrity sha512-RHHXtMxXIEB/PX4cO2tjunD8wsFW1WNva7vRJmEfyK4FADyBVOfGxlt6/W3tMk0krol7oKNQMgLYW9DUzFpkxw==
+  version "3.14.1"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-3.14.1.tgz#a766560e5d7f988a093b8121c4837cf8e3831bcb"
+  integrity sha512-p59vq9jM8QOOY99lv17t5vxvR+WbxNdor4tY/+X5+NbsTui2jk2JzB1naQ2k5LF1MhbJXT8iUjQ9GV+syxambw==
 
 groq@^2.2.6:
   version "2.33.2"
@@ -2247,11 +2247,11 @@ next-auth@^4.18.0:
     uuid "^8.3.2"
 
 next-sanity@^5.0.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-5.1.0.tgz#435f14668786927e533f600c8d4578ccafb070c6"
-  integrity sha512-MqlkpaVyasfkz196dMm4oJkiBPgaoyb6lDC7X5hRStcIaZVTUgyoDSoeksQZxZLbo6QTf5HeBlrjeX8tNQ+HWQ==
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-5.1.1.tgz#de8891d63a68ef30d181ec8a037ccb97e3ab8280"
+  integrity sha512-zY80a0F7uDzvmKSvP1rNGKcbxPz2nH6UY0sYs7fW/nmifJzd48MyYqL31AqzO9FHPAG/V4a/aMbC23PFOgxKIA==
   dependencies:
-    "@sanity/preview-kit" "2.3.0"
+    "@sanity/preview-kit" "2.3.1"
     "@sanity/webhook" "2.0.0"
     groq "^3.0.0"
 
