@@ -1196,12 +1196,12 @@
     reselect "^4.1.8"
 
 "@sanity/client@^6.3.0":
-  version "6.4.4"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.4.4.tgz#48526e40e546cb6275cd49851007b5bccdbed5af"
-  integrity sha512-A+BZY68/6fOf+UZqx5cjMcBMTmpsdL3HHa1P6phtnnzYjzV3xP3WQ+NVi0U6PgahnEH5aSW6y882QUsBS8jYpQ==
+  version "6.4.5"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.4.5.tgz#3d21041a9b950b9a9d8b8f036fe96ca3001ad282"
+  integrity sha512-IL+fzoZ2ZJKke07fFzq8Y6/NbWHvcQqSc4FLSO2O4xyCdZl6H/hyvOODvWRP01NFS63IJS2GHLjufD9II8pLYQ==
   dependencies:
     "@sanity/eventsource" "^5.0.0"
-    get-it "^8.4.1"
+    get-it "^8.4.2"
     rxjs "^7.0.0"
 
 "@sanity/eventsource@5.0.0", "@sanity/eventsource@^5.0.0":
@@ -1341,19 +1341,10 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
-"@types/react@18.2.20":
+"@types/react@18.2.20", "@types/react@^18.0.25":
   version "18.2.20"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.20.tgz#1605557a83df5c8a2cc4eeb743b3dfc0eb6aaeb2"
   integrity sha512-WKNtmsLWJM/3D5mG4U84cysVY31ivmyw85dE84fOCk5Hx78wezB/XEjVPWl2JTZ5FkEeaTJf+VgUAUn3PE7Isw==
-  dependencies:
-    "@types/prop-types" "*"
-    "@types/scheduler" "*"
-    csstype "^3.0.2"
-
-"@types/react@^18.0.25":
-  version "18.2.19"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.19.tgz#f77cb2c8307368e624d464a25b9675fa35f95a8b"
-  integrity sha512-e2S8wmY1ePfM517PqCG80CcE48Xs5k0pwJzuDZsfE8IZRRBfOMCF+XqnFxu6mWtyivum1MQm4aco+WIt6Coimw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -1836,10 +1827,10 @@ get-intrinsic@^1.0.2:
     has-proto "^1.0.1"
     has-symbols "^1.0.3"
 
-get-it@^8.4.1:
-  version "8.4.1"
-  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.4.1.tgz#59def03274cd2ba3317ad4c8cab8a0ecea197505"
-  integrity sha512-B81/lof6jHW2/YyvH4gzKclBMdHNl2B4hRpuIiwVYtZjUiV5mBAQa2GTX6EPTuNhPxw8K5c14cJAFUa78b4A/g==
+get-it@^8.4.2:
+  version "8.4.2"
+  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.4.2.tgz#dd247bd855aa7f8583a586fe0b81bc324995e943"
+  integrity sha512-xseDj1loKLcPYKhdlP2k7ZYDE03jTrHgRNt0AURtALOu+8pREmBn+UxZ4JbsxpQ8AvupgmpYuuTa3cS1mtuy2w==
   dependencies:
     debug "^4.3.4"
     decompress-response "^7.0.0"
@@ -2238,9 +2229,9 @@ next-auth@^4.18.0:
     uuid "^8.3.2"
 
 next-sanity@^5.0.0:
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-5.2.3.tgz#54f1e0bb3f7460ce506461ac31c448fb0cad5d61"
-  integrity sha512-X11oFX8Ut5o07yaWZEpZYIjCcTOcudiX74ZzRoGValhBLhM0luehO1ts6tGu6zqthXIGFUe562n/d7SWAjub9A==
+  version "5.2.4"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-5.2.4.tgz#e95ea3070f07cc39856a5eb26853f3fe46cbe921"
+  integrity sha512-4mIWVRg3VqI2Hx9sJOfbO/IttjRH5KDBdNpzDBoGizhF4C6iagrLTeGelg2MFu8gUSgfxKjwG7zkDWkvOgfY5w==
   dependencies:
     "@sanity/preview-kit" "2.4.9"
     "@sanity/webhook" "2.0.0"
