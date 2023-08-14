@@ -1234,10 +1234,10 @@
   resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-1.0.2.tgz#1ff7259e9bad6bfca4169f21c53a4123f6ac78c3"
   integrity sha512-C4+jb2ny3ZbMgEkLd7Z3C75DsxcTEoE+axXQJsQ75ou0AKWGdVsP351hqK6mJUUxn5HCSlu3vznoh7Yljye4cQ==
 
-"@sanity/preview-kit@2.6.0":
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-2.6.0.tgz#1ae986cce21e40f712df7cd6a1bf180405764cc1"
-  integrity sha512-IOnc7+TBd6Zz74DXW/koQdxdQuIMn7r1NxhA+GVs1eS3zrNMm8sdEchCYtRmwAmYZj2pCbujo3QNiTcie0jsNA==
+"@sanity/preview-kit@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-3.1.0.tgz#6ee06994683dec5ecd37ddb200f5bae2ac9ac84a"
+  integrity sha512-OkKORSbjt1R8XRgG7nS24tXk4AiuQTmU+yqgpNioiUt30QKQ4gFSGCx4A/3rMCz90cnHY6VbKSVyrHzU4Kbk4w==
   dependencies:
     "@sanity/eventsource" "5.0.0"
     "@sanity/groq-store" "4.0.4"
@@ -2214,11 +2214,11 @@ next-auth@^4.18.0:
     uuid "^8.3.2"
 
 next-sanity@^5.0.0:
-  version "5.2.7"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-5.2.7.tgz#044fe3fb48ddd9ffb8dc27a6cfa6126c3a1abf6f"
-  integrity sha512-cR4EFz9njJMM118PwDzVe2SWC3VYIBKHoWq620PYoK+0oFQckYFNpKDhibZxwZyktuJ83cEGitzOoI0F0a5acw==
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-5.4.0.tgz#da6b418cda1725221dc143f03f5892050d833efa"
+  integrity sha512-aiRRYohgfdpOIQPmYWqDNudNxd4pH2lsOdiicVcso2ReVTPX68Bg5mdMRJoSU/95HnS7pfhGv7EJsrn/OffUtw==
   dependencies:
-    "@sanity/preview-kit" "2.6.0"
+    "@sanity/preview-kit" "3.1.0"
     "@sanity/webhook" "2.0.0"
     groq "^3.0.0"
 
