@@ -1317,9 +1317,9 @@
   integrity sha512-r3hjHPBu+3LzbGBa8DHnr/KAeTEEOrahkcL+cZc4MaBMTM+mk8LtXR+zw+nqfjuDZZzYTYgTcpHuP+BEQk069g==
 
 "@types/node@>=8.1.0":
-  version "20.4.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.4.9.tgz#c7164e0f8d3f12dfae336af0b1f7fdec8c6b204f"
-  integrity sha512-8e2HYcg7ohnTUbHk8focoklEQYvemQmu9M/f43DZVx43kHn0tE3BY/6gSDxS7k0SprtS0NHvj+L80cGLnoOUcQ==
+  version "20.5.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.5.6.tgz#5e9aaa86be03a09decafd61b128d6cec64a5fe40"
+  integrity sha512-Gi5wRGPbbyOTX+4Y2iULQ27oUPrefaB0PxGQJnfyWN3kvEDGM3mIB5M/gQLmitZf7A9FmLeaqxD3L1CXpm3VKQ==
 
 "@types/prop-types@*":
   version "15.7.5"
@@ -2838,9 +2838,9 @@ strip-ansi@^6.0.1:
     ansi-regex "^5.0.1"
 
 stripe@^13.0.0:
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/stripe/-/stripe-13.0.0.tgz#2ef38734875dd94165cdaa50ab4cd8fc2425aade"
-  integrity sha512-b840YPFBqeOO3Gd3FPXx0WoE9r4hb4CvMaJZhSYsgbmAETCsdomXcMvmSYWoHt3OrnFXmwW/Ix17DbZ+zTVGZw==
+  version "13.3.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-13.3.0.tgz#da52e53a3bbf22e5e06f652cf074618ed8cf421f"
+  integrity sha512-saDZBvk8fCBz9GigKpVXAaAo0K+TQe+DwVmucAzpJq503Y44P2ehMqulfaRoK8a+etuwIUlgsXD+am6YSMxepg==
   dependencies:
     "@types/node" ">=8.1.0"
     qs "^6.11.0"
