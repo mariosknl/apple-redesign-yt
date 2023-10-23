@@ -2832,10 +2832,6 @@ strip-ansi@^6.0.1:
   dependencies:
     ansi-regex "^5.0.1"
 
-stripe@^13.0.0:
-  version "13.11.0"
-  resolved "https://registry.yarnpkg.com/stripe/-/stripe-13.11.0.tgz#f51e1acf1ec75e85a405130e8b28f6dfd68be34b"
-  integrity sha512-yPxVJxUzP1QHhHeFnYjJl48QwDS1+5befcL7ju7+t+i88D5r0rbsL+GkCCS6zgcU+TiV5bF9eMGcKyJfLf8BZQ==
   dependencies:
     "@types/node" ">=8.1.0"
     qs "^6.11.0"
