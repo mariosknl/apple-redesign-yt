@@ -1328,14 +1328,14 @@
     undici-types "~5.25.1"
 
 "@types/prop-types@*":
-  version "15.7.8"
-  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.8.tgz#805eae6e8f41bd19e88917d2ea200dc992f405d3"
-  integrity sha512-kMpQpfZKSCBqltAJwskgePRaYRFukDkm1oItcAbC3gNELR20XIBcN9VRgg4+m8DKsTfkWeA4m4Imp4DDuWy7FQ==
+  version "15.7.9"
+  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.9.tgz#b6f785caa7ea1fe4414d9df42ee0ab67f23d8a6d"
+  integrity sha512-n1yyPsugYNSmHgxDFjicaI2+gCNjsBck8UX9kuofAKlc0h1bL+20oSF72KeNaW2DUlesbEVCFgyV2dPGTiY42g==
 
 "@types/react-currency-formatter@^1.1.4":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@types/react-currency-formatter/-/react-currency-formatter-1.1.5.tgz#c616780af9bb19140314540a53241ffdf6ce29f6"
-  integrity sha512-KKcQX1VIv/KYjBcfjF3F0EnmqRwBUHhRJtb2GXtN9Elqzb+sWbnW338ZWwpxcm/7HUy2pEWGwpTszE2ffUkbTQ==
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@types/react-currency-formatter/-/react-currency-formatter-1.1.6.tgz#31d0155fb188359641abd08bf12fcb6ba200b47e"
+  integrity sha512-z9QskY1A6OhWg9zGu0ZDvj7BQDcZ1xwQiabXHAO/UbsTcldGsJp8up6mpfkmbViIEvltBPPkoUZXFRW3KMeFxw==
   dependencies:
     "@types/react" "*"
 
@@ -1347,9 +1347,9 @@
     "@types/react" "*"
 
 "@types/react@*":
-  version "18.2.27"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.27.tgz#746e52b06f3ccd5d7a724fd53769b70792601440"
-  integrity sha512-Wfv7B7FZiR2r3MIqbAlXoY1+tXm4bOqfz4oRr+nyXdBqapDBZ0l/IGcSlAfvxIHEEJjkPU0MYAc/BlFPOcrgLw==
+  version "18.2.31"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.31.tgz#74ae2630e4aa9af599584157abd3b95d96fb9b40"
+  integrity sha512-c2UnPv548q+5DFh03y8lEDeMfDwBn9G3dRwfkrxQMo/dOtRHUUO57k6pHvBIfH/VF4Nh+98mZ5aaSe+2echD5g==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -1365,9 +1365,9 @@
     csstype "^3.0.2"
 
 "@types/scheduler@*":
-  version "0.16.4"
-  resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.4.tgz#fedc3e5b15c26dc18faae96bf1317487cb3658cf"
-  integrity sha512-2L9ifAGl7wmXwP4v3pN4p2FLhD0O1qsJpvKmNin5VA8+UvNVb447UDaAEV6UdrkA+m/Xs58U1RFps44x6TFsVQ==
+  version "0.16.5"
+  resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.5.tgz#4751153abbf8d6199babb345a52e1eb4167d64af"
+  integrity sha512-s/FPdYRmZR8SjLWGMCuax7r3qCWQw9QKHzXVukAuuIJkXkDRwp+Pu5LMIVFi0Fxbav35WURicYr8u1QsoybnQw==
 
 "@types/use-sync-external-store@^0.0.3":
   version "0.0.3"
