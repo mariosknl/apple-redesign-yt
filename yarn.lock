@@ -1303,10 +1303,17 @@
     "@types/react" "*"
     hoist-non-react-statics "^3.3.0"
 
-"@types/node@20.8.10", "@types/node@>=8.1.0":
+"@types/node@20.8.10":
   version "20.8.10"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-20.8.10.tgz#a5448b895c753ae929c26ce85cab557c6d4a365e"
   integrity sha512-TlgT8JntpcbmKUFzjhsyhGfP2fsiz1Mv56im6enJ905xG1DAYesxJaeSbGqQmAw8OWPdhyJGhGSQGKRNJ45u9w==
+  dependencies:
+    undici-types "~5.26.4"
+
+"@types/node@>=8.1.0":
+  version "20.9.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.9.0.tgz#bfcdc230583aeb891cf51e73cfdaacdd8deae298"
+  integrity sha512-nekiGu2NDb1BcVofVcEKMIwzlx4NjHlcjhoxxKBNLtz15Y1z7MYf549DFvkHSId02Ax6kGwWntIBPC3l/JZcmw==
   dependencies:
     undici-types "~5.26.4"
 
@@ -2853,9 +2860,9 @@ strip-ansi@^6.0.1:
     qs "^6.11.0"
 
 stripe@^14.0.0:
-  version "14.2.0"
-  resolved "https://registry.yarnpkg.com/stripe/-/stripe-14.2.0.tgz#e7a143d01ecd62ea5e5861f547d5ad74d7f92143"
-  integrity sha512-lMjDOyJbt+NVSDvkTathSP7uEV35l7oU8UrhBJrYD8lUi43BWujq8E9QHd3o9D2KPBR1Cze5DCw5s1btnLfdMA==
+  version "14.4.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-14.4.0.tgz#f291fa1dc8d956d6f897bd8e9d01f40711c0f3b8"
+  integrity sha512-E3IxDo/Bvu0TtYrKfAf8lEYd0beTjFSN4xemuw2oEfUyxFpJyrzRZOw50HIEXFYYHWNDORicd8G8R4joCbN3/Q==
   dependencies:
     "@types/node" ">=8.1.0"
     qs "^6.11.0"
