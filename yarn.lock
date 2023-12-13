@@ -1196,10 +1196,10 @@
     redux-thunk "^3.1.0"
     reselect "^5.0.1"
 
-"@sanity/client@^6.9.1":
-  version "6.9.1"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.9.1.tgz#b95d68e313118e0bbdb6260f7a8c8463cd02bba3"
-  integrity sha512-k104Mp3n7uhmY/6DZ5oVxeX1pL3ixv3htodsqW3f2aEQnBXBcRYFQ9OL12p2jpSeOSicOve2joX2sBx0fJBdww==
+"@sanity/client@^6.9.3":
+  version "6.10.0"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.10.0.tgz#9f4161074afd1af1a01b6295be1032b62aaab0e7"
+  integrity sha512-TavtxGB6NWjro2BTGXSkzXNMKFZbS2il1ItV3IdRvO0luLqS31eIz37+5X4CmCC8hGFe6fDoCjnH/iJ81vKM7g==
   dependencies:
     "@sanity/eventsource" "^5.0.0"
     "@vercel/stega" "0.1.0"
@@ -1221,17 +1221,17 @@
   resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-1.0.2.tgz#1ff7259e9bad6bfca4169f21c53a4123f6ac78c3"
   integrity sha512-C4+jb2ny3ZbMgEkLd7Z3C75DsxcTEoE+axXQJsQ75ou0AKWGdVsP351hqK6mJUUxn5HCSlu3vznoh7Yljye4cQ==
 
-"@sanity/preview-kit-compat@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit-compat/-/preview-kit-compat-1.0.2.tgz#fe76f9727b5e5125d5f665c7e85a262aab0fc969"
-  integrity sha512-TnmbxyKDJiWVBx0ByI4MfyZUJoAWwBoq1Luh1dRsiVrXMubxw7/N22PjLnmNb4SyFCqJpVZ4KWufURD2QRCKoA==
+"@sanity/preview-kit-compat@1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit-compat/-/preview-kit-compat-1.2.2.tgz#4994106d646ed97a0acd1530fb872fd58f46f84c"
+  integrity sha512-hm6rcz5sKBc/0sS4zn5HYvj9eD00OxzkGyj7qu3Lp//SwVXT8sX2Ad4x28lxJvrjSYENt7ByiSt8Y2gfnRbJRw==
 
-"@sanity/preview-kit@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.0.1.tgz#ed3d1d9cecb75ab713d8bc58f630975e8cd69fad"
-  integrity sha512-MFkOGPegwvQ0EJ9H5nzLnYvVxLCzamevb8rdEgsubL4rTswkRKL52zogFuYOr3/XlBmQgC2y1/jSTlyEtqwslw==
+"@sanity/preview-kit@5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.0.5.tgz#278c1089b5cf4acd50a3907732c8d24012e6b66e"
+  integrity sha512-mAnNm0XIrrowQolrR4xZq8cQp1XH+Xw7Vv5lDwIV5vgZBi62KPiOhGrVpBupE0JWRqW/RkylmW88Xw0Q5Ki3+Q==
   dependencies:
-    "@sanity/preview-kit-compat" "1.0.2"
+    "@sanity/preview-kit-compat" "1.2.2"
     "@vercel/stega" "0.1.0"
     lru-cache "10.1.0"
     mendoza "3.0.3"
@@ -1866,9 +1866,9 @@ groq@^2.2.6:
   integrity sha512-5pf4c91JESCS28IJCgolJq/WBw4Xvf2m8FgZVUlrCig17I+qERosALAHLyyutXu403EYnyCD3DdCLaPb3aGneA==
 
 groq@^3.19:
-  version "3.20.2"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-3.20.2.tgz#1ddae9f07646e5e70114f2195068ad6ba3565faa"
-  integrity sha512-R7NH4cgdUZoxsH+08sHhCR+0/wuZbEu1gOH0nKK8q4YC0I7Qf9jAy/cHGCXPVvVocHTpbmP+a/mX4dGGPzo0Ow==
+  version "3.21.3"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-3.21.3.tgz#7167d063f61d658fbcc0b6b999847a69be41e227"
+  integrity sha512-VzhP4jBQNLrS6aJU/jpEGex5eywcfz2ssIgC+mmn2FuF3uwvCh5qP+rqK2o3Z2I/RYvoMKk5UXfcmAAmC7jAZg==
 
 has-flag@^3.0.0:
   version "3.0.0"
@@ -2193,12 +2193,12 @@ next-auth@^4.18.0:
     uuid "^8.3.2"
 
 next-sanity@^7.0.0:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-7.0.1.tgz#f2d54be5f184d1bc723800018527db85306a81ed"
-  integrity sha512-WezHXY5Wt0SArjl6Ddg0pmu+yy3ygULEgVA44UJpM5VvZIn8lHNDrq2gTduJxYgrBvDx/m5RR48nAW86bbGxyQ==
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-7.0.3.tgz#776498ae87c246ca9fd0b86a38a1ce73d4b1962f"
+  integrity sha512-PCTkDEm2ofubRLA6iAB1oKLnqjy/4CGfeBP7yb/4a9F2152d1j38GlUQA/GSx3uMqX/TYq9C85XFTQ2He3bGFA==
   dependencies:
-    "@sanity/client" "^6.9.1"
-    "@sanity/preview-kit" "5.0.1"
+    "@sanity/client" "^6.9.3"
+    "@sanity/preview-kit" "5.0.5"
     "@sanity/webhook" "4.0.0"
     groq "^3.19"
 
