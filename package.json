@@ -29,7 +29,7 @@
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
     "@types/react": "18.2.45",
-    "@types/node": "20.10.3",
+    "@types/node": "20.10.4",
     "@types/react-currency-formatter": "^1.1.4",
     "@types/react-dom": "18.2.17",
     "autoprefixer": "^10.4.12",
