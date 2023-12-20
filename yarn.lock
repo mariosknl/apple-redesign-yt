@@ -2776,9 +2776,9 @@ strip-ansi@^6.0.1:
     qs "^6.11.0"
 
 stripe@^14.0.0:
-  version "14.8.0"
-  resolved "https://registry.yarnpkg.com/stripe/-/stripe-14.8.0.tgz#2b72791ccb42f3a5c636bacbff00b88dc97a10dd"
-  integrity sha512-Qdecqk7lx095BE829NWxrG1+69NjPuHrpZqeR61i2KO00fpKkjMX9TYjwFU+WjQD6ZcNmCGOwNfnz5VnI5bjIg==
+  version "14.9.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-14.9.0.tgz#e814a3da09f47258bec87e24516c3f3e33041148"
+  integrity sha512-t2XdpNbRH4x3MYEoxNWhwUPl9D80aUd5OHds0zhDiwRYPZ0H7MrUI/dj9wOSYlzycD3xdvjn0q7pWeFWljtMUQ==
   dependencies:
     "@types/node" ">=8.1.0"
     qs "^6.11.0"
