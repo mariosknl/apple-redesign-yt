@@ -1274,17 +1274,10 @@
   resolved "https://registry.yarnpkg.com/@types/eventsource/-/eventsource-1.1.12.tgz#ceed409a2a19ef8ecb44545d9546f74dc448f426"
   integrity sha512-KlVguyxdoO8VkAhOMwOemK+NhFAg0gOwJHgimrWJUgM6LrdVW2nLa+d47WVWQcs8feRn0eeP+5yUDmDfzLBjRA==
 
-"@types/node@20.10.6":
+"@types/node@20.10.6", "@types/node@>=8.1.0":
   version "20.10.6"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-20.10.6.tgz#a3ec84c22965802bf763da55b2394424f22bfbb5"
   integrity sha512-Vac8H+NlRNNlAmDfGUP7b5h/KA+AtWIzuXy0E6OyP8f1tCLYAtPvKRRDJjAPqhpCb0t6U2j7/xqAuLEebW2kiw==
-  dependencies:
-    undici-types "~5.26.4"
-
-"@types/node@>=8.1.0":
-  version "20.10.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.10.5.tgz#47ad460b514096b7ed63a1dae26fad0914ed3ab2"
-  integrity sha512-nNPsNE65wjMxEKI93yOP+NPGGBJz/PoN3kZsVLee0XMiJolxSekEVD8wRwBUBqkwc7UWop0edW50yrCQW4CyRw==
   dependencies:
     undici-types "~5.26.4"
 
@@ -2783,9 +2776,9 @@ strip-ansi@^6.0.1:
     qs "^6.11.0"
 
 stripe@^14.0.0:
-  version "14.10.0"
-  resolved "https://registry.yarnpkg.com/stripe/-/stripe-14.10.0.tgz#3d351ad9180a4c20e1dda50bc79bcee6b44757da"
-  integrity sha512-zI6yxYVFJtjibgb06Xn08KsJy1Zq+KE3jLkhZ8bJOTrxNVi2CtCreQdUn+NjXN5lTEdiNhxIqL0NmuSza+rOGw==
+  version "14.11.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-14.11.0.tgz#1df63c31bcff3b136457c2b7584f917509e8030c"
+  integrity sha512-NmFEkDC0PldP7CQtdPgKs5dVZA/pF+IepldbmB+Kk9B4d7EBkWnbANp0y+/zJcbRGul48s8hmQzeqNWUlWW0wg==
   dependencies:
     "@types/node" ">=8.1.0"
     qs "^6.11.0"
