@@ -1214,14 +1214,14 @@
     redux-thunk "^3.1.0"
     reselect "^5.0.1"
 
-"@sanity/client@^6.11.1":
-  version "6.11.1"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.11.1.tgz#3c36109434775d1588b171e4840e6750415da6d1"
-  integrity sha512-em4jWdXl/yZQsXRslTqF+0kj5sFM9l9tVz7pE/vPLN0aYlX+jxovzX4PBXLC1/gdJVtpT4GQRHcTBcnNSOtPNA==
+"@sanity/client@^6.12.3":
+  version "6.12.3"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.12.3.tgz#240d50c55b3ed4e0f3a24a055c852d0aea992c89"
+  integrity sha512-oA9LkDZOpVN8nciGb6/h+1r4ElH0IUTC3bHyBdVsxB5namdWBJKZzuVjJiWQlsK8up7U1xsATB4hyimSgUCSjA==
   dependencies:
     "@sanity/eventsource" "^5.0.0"
     "@vercel/stega" "0.1.0"
-    get-it "^8.4.4"
+    get-it "^8.4.6"
     rxjs "^7.0.0"
 
 "@sanity/eventsource@^5.0.0":
@@ -1239,20 +1239,20 @@
   resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-1.0.2.tgz#1ff7259e9bad6bfca4169f21c53a4123f6ac78c3"
   integrity sha512-C4+jb2ny3ZbMgEkLd7Z3C75DsxcTEoE+axXQJsQ75ou0AKWGdVsP351hqK6mJUUxn5HCSlu3vznoh7Yljye4cQ==
 
-"@sanity/preview-kit-compat@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit-compat/-/preview-kit-compat-1.4.0.tgz#153ae7be33bf62946ff3013ed96832c8e3bd2dee"
-  integrity sha512-n5gwT79ZdoGuMMMU5qDSHRsqMl6XEW0gvaXQYR5kgx6tY9HCr8Mpd0iJ8NHr0sD+/aBU7Rw4/l4i6mB3Z+bS4Q==
+"@sanity/preview-kit-compat@1.4.4":
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit-compat/-/preview-kit-compat-1.4.4.tgz#50033d91870ea852a3231b2260878f26ae71348e"
+  integrity sha512-CYO/qFIc2fqV8cpAIYay43SfPIs/SFzT8ke+XgXYlzwXmShdDnKXNttfLDUWvxk6+nJiPRgzRN9kokC8ineP2g==
 
-"@sanity/preview-kit@5.0.11":
-  version "5.0.11"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.0.11.tgz#9c17bc9a9b67c58fa57839aba962f671d061b3bc"
-  integrity sha512-xfLcrRDu5Smb9vTIn/2QXBDTQ0VIIy905CoqIADYHf40rrqJMx/Q2Iqs3lRSYeAFpUWcaE5nYfihmUzCG4npVg==
+"@sanity/preview-kit@5.0.19":
+  version "5.0.19"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.0.19.tgz#85946615ee011548a5470431a688ca39b701a40a"
+  integrity sha512-Xv6lI58aRC17naOAT1mhuy0W3/UiAlV/J0y1zFghghplBPUt7TsP+jjPc+tPNW7nFm0tkHdNKe1uPASwIBVxVA==
   dependencies:
-    "@sanity/preview-kit-compat" "1.4.0"
+    "@sanity/preview-kit-compat" "1.4.4"
     "@vercel/stega" "0.1.0"
-    lru-cache "10.1.0"
-    mendoza "3.0.3"
+    lru-cache "10.2.0"
+    mendoza "3.0.4"
     react-fast-compare "3.2.2"
     use-sync-external-store "1.2.0"
 
@@ -1865,10 +1865,10 @@ get-intrinsic@^1.0.2, get-intrinsic@^1.1.3, get-intrinsic@^1.2.1, get-intrinsic@
     has-symbols "^1.0.3"
     hasown "^2.0.0"
 
-get-it@^8.4.4:
-  version "8.4.5"
-  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.4.5.tgz#f60ef6724d80a1c522905e12c6ed9fdd540f03e2"
-  integrity sha512-hOoAwSfJXy86QJPEsZFDtBsFBagyTAlYwLJkKZJN5q7ppXRQjq0Wies4d14icDSpVs7QVm4Wtt0XQzjxXlUdgg==
+get-it@^8.4.6:
+  version "8.4.6"
+  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.4.6.tgz#37af61bd72027364c73ec10ed3f1c45ccb28241a"
+  integrity sha512-omefjdbyRb2rRt0tnrZlbeWx9oZJm66o88K8JlYn13xELn+0+d6mJZOQHrJAdC3vxeJ4t/NHa4wh7Wlh+nvEJA==
   dependencies:
     debug "^4.3.4"
     decompress-response "^7.0.0"
@@ -1941,9 +1941,9 @@ groq@^2.2.6:
   integrity sha512-5pf4c91JESCS28IJCgolJq/WBw4Xvf2m8FgZVUlrCig17I+qERosALAHLyyutXu403EYnyCD3DdCLaPb3aGneA==
 
 groq@^3.19:
-  version "3.24.1"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-3.24.1.tgz#54c3e7938e273cec34986f08a1041a3087b9caf3"
-  integrity sha512-Ay33pHdDZWe25Dnelcl3G1APrsLQ1b2ypoFuqRh4ot5zGlEPa9Bfyi2C3vZzvF9knM5tFboDLAr73vLdod69QA==
+  version "3.26.1"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-3.26.1.tgz#45921574a9d97a5bba908fee15625894e5396840"
+  integrity sha512-TCq/Q2SJRH+bhuxnLL395kbU6MCKMtF9Q9u4Lkq1c0K+eTKtSo/1Dvy1xxOO1BIzNUuBXRkncEhfvG8g68KKZA==
 
 has-flag@^3.0.0:
   version "3.0.0"
@@ -2145,10 +2145,10 @@ loose-envify@^1.1.0, loose-envify@^1.4.0:
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
-lru-cache@10.1.0, "lru-cache@^9.1.1 || ^10.0.0":
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.1.0.tgz#2098d41c2dc56500e6c88584aa656c84de7d0484"
-  integrity sha512-/1clY/ui8CzjKFyjdvwPWJUYKiFVXG2I2cY0ssG7h4+hwk+XOIX7ZSG9Q7TW8TW3Kp3BUSqgFWBLgL4PJ+Blag==
+lru-cache@10.2.0:
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.2.0.tgz#0bd445ca57363465900f4d1f9bd8db343a4d95c3"
+  integrity sha512-2bIM8x+VAf6JT4bKAljS1qUWgMsqZRPGJS6FSahIMPVvctcNhyVp7AJu7quxOW9jwkryBReKZY5tY5JYv2n/7Q==
 
 lru-cache@^5.1.1:
   version "5.1.1"
@@ -2164,6 +2164,11 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
+"lru-cache@^9.1.1 || ^10.0.0":
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.1.0.tgz#2098d41c2dc56500e6c88584aa656c84de7d0484"
+  integrity sha512-/1clY/ui8CzjKFyjdvwPWJUYKiFVXG2I2cY0ssG7h4+hwk+XOIX7ZSG9Q7TW8TW3Kp3BUSqgFWBLgL4PJ+Blag==
+
 make-dir@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/make-dir/-/make-dir-3.1.0.tgz#415e967046b3a7f1d185277d84aa58203726a13f"
@@ -2178,10 +2183,10 @@ matchmediaquery@^0.3.0:
   dependencies:
     css-mediaquery "^0.1.2"
 
-mendoza@3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/mendoza/-/mendoza-3.0.3.tgz#5fe1725adef67c92711fe40378920c645edea1b7"
-  integrity sha512-xh0Angj7/kuLzJHglH7dVetoSyUt1/2wjmuugB0iBftteS6+xKvwC+bhs+IvF9tITdEdZpIl0XT5QLaL18A5dA==
+mendoza@3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/mendoza/-/mendoza-3.0.4.tgz#1ea33ac2bc1d5f735ee7b1394b5cf3c3f0062f84"
+  integrity sha512-kGlLhn1HF57oUK9DzJpqiqxHS9KJ0JcFRtNKBM8l970nepx3/GKs1uAIlBfq5mjmndk7IGa4vQ2ofcqMKMPTiA==
 
 merge2@^1.3.0:
   version "1.4.1"
@@ -2294,12 +2299,12 @@ next-auth@^4.18.0:
     uuid "^8.3.2"
 
 next-sanity@^7.0.0:
-  version "7.0.10"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-7.0.10.tgz#a1c5bc75cd1a02833fe114eb8c8d1b76c554b3cf"
-  integrity sha512-2X7uq2mYYbzV+S2SuZWvhpzw1gMqpBawXzXG1edQ2m8K3h4vUy2H8glm4zEw8YDiO4OiNJXvPF2AwGab4wAyvQ==
+  version "7.0.17"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-7.0.17.tgz#a102dc77c319d3cc89769dfc62b94b6822edac3b"
+  integrity sha512-hMsJarL8Oe+nRS3petmd5vPKu/BiS02g6/zXL/WJjwL0iS0z9VDDDPDgR/hq5Mb+YW6v3q9tqt5Figyr53W9RQ==
   dependencies:
-    "@sanity/client" "^6.11.1"
-    "@sanity/preview-kit" "5.0.11"
+    "@sanity/client" "^6.12.3"
+    "@sanity/preview-kit" "5.0.19"
     "@sanity/webhook" "4.0.0"
     groq "^3.19"
 
