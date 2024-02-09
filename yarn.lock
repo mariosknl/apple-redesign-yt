@@ -1214,10 +1214,10 @@
     redux-thunk "^3.1.0"
     reselect "^5.0.1"
 
-"@sanity/client@^6.12.3":
-  version "6.12.3"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.12.3.tgz#240d50c55b3ed4e0f3a24a055c852d0aea992c89"
-  integrity sha512-oA9LkDZOpVN8nciGb6/h+1r4ElH0IUTC3bHyBdVsxB5namdWBJKZzuVjJiWQlsK8up7U1xsATB4hyimSgUCSjA==
+"@sanity/client@^6.12.4":
+  version "6.12.4"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.12.4.tgz#ec7113b57b381846b5e16bdbbe5ec175c219b617"
+  integrity sha512-eDBnKwKdFIiMeRZ5xPaKUOs+gsw6P4Bq+Bj7cZ9xuaLXMTsOSlB5h9TsPW5vAYRMbm4coVYUvhqm9TMwSi0F2Q==
   dependencies:
     "@sanity/eventsource" "^5.0.0"
     "@vercel/stega" "0.1.0"
@@ -1244,10 +1244,10 @@
   resolved "https://registry.yarnpkg.com/@sanity/preview-kit-compat/-/preview-kit-compat-1.4.4.tgz#50033d91870ea852a3231b2260878f26ae71348e"
   integrity sha512-CYO/qFIc2fqV8cpAIYay43SfPIs/SFzT8ke+XgXYlzwXmShdDnKXNttfLDUWvxk6+nJiPRgzRN9kokC8ineP2g==
 
-"@sanity/preview-kit@5.0.19":
-  version "5.0.19"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.0.19.tgz#85946615ee011548a5470431a688ca39b701a40a"
-  integrity sha512-Xv6lI58aRC17naOAT1mhuy0W3/UiAlV/J0y1zFghghplBPUt7TsP+jjPc+tPNW7nFm0tkHdNKe1uPASwIBVxVA==
+"@sanity/preview-kit@5.0.20":
+  version "5.0.20"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.0.20.tgz#4285a681fb4e3d8a5e567b2b3f65b19d8ca423af"
+  integrity sha512-UYNDCyLPMZ5QfPi3oBryPV6rJXvgocZ8ilH8rJsuR3hgRrVrSdV2bnYSrMRVdIQtd32PeFPnJqxtYNu6aXc4HA==
   dependencies:
     "@sanity/preview-kit-compat" "1.4.4"
     "@vercel/stega" "0.1.0"
@@ -1264,10 +1264,10 @@
     "@types/uuid" "^8.0.0"
     uuid "^8.0.0"
 
-"@sanity/visual-editing@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-1.2.0.tgz#2a7eb0e4aeeaa41bc0657190020c0e1ccc45d3a9"
-  integrity sha512-L4i6cdAUhMXRFBSdnhzMY0IdNN7TF3grrOxMY0GcPgZ3E28cQmEIv39ZdeoUlrUhXMuMOnfbsgHvbN+jkm8mng==
+"@sanity/visual-editing@1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-1.2.2.tgz#6331696a00603c5a80b2eba87f38080e05908a74"
+  integrity sha512-iR1stYfPPhBJLjwKY3MBgr0DcRADgnRaTJvZ3nUJ2puGVniPoSxJ9Zj4PkspferU8997RKKtupN9m9spFYskXg==
   dependencies:
     "@vercel/stega" "0.1.0"
     react "^18.2.0"
@@ -2328,13 +2328,13 @@ next-auth@^4.18.0:
     uuid "^8.3.2"
 
 next-sanity@^7.0.0:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-7.1.1.tgz#d4f2cb9c01b5b143f97a729f7ef75373fd8ba1ed"
-  integrity sha512-RP3WUh8rOdNiXAQVsaQeJ74rYboXTjiuAyDGNuq83JFkPIFNneGlLvV2Z5qfAhDdCv27u4A8jBjP7+5eUsmVVA==
+  version "7.1.4"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-7.1.4.tgz#78c35c75697c95302b26e6f3c5312568c4b1017a"
+  integrity sha512-bq/VkejvPgV95mi5fxR01rALG1QURe0nO2g3HyUuiZRyTd0teFgYvCVf1b5PBndKhD15Cd3UK/WwcLKRxxEr3A==
   dependencies:
-    "@sanity/client" "^6.12.3"
-    "@sanity/preview-kit" "5.0.19"
-    "@sanity/visual-editing" "1.2.0"
+    "@sanity/client" "^6.12.4"
+    "@sanity/preview-kit" "5.0.20"
+    "@sanity/visual-editing" "1.2.2"
     "@sanity/webhook" "4.0.0"
     groq "^3.19"
 
