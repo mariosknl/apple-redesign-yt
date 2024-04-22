@@ -15,7 +15,7 @@
     "next": "latest",
     "next-auth": "^4.18.0",
     "next-auth-sanity": "^1.4.4",
-    "next-sanity": "^8.0.0",
+    "next-sanity": "^9.0.0",
     "react": "18.2.0",
     "react-currency-formatter": "^1.1.0",
     "react-dom": "18.2.0",
