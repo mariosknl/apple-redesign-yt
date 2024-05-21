@@ -1298,9 +1298,9 @@
     valibot "0.30.0"
 
 "@stripe/stripe-js@^3.0.0":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@stripe/stripe-js/-/stripe-js-3.3.0.tgz#6f3a7090fe5a1116a1d7f6ba1205f7252f24537b"
-  integrity sha512-dUgAsko9KoYC1U2TIawHzbkQJzPoApxCc1Qf6/j318d1ArViyh6ROHVYTxnU3RlOQL/utUD9I4/QoyiCowsgrw==
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@stripe/stripe-js/-/stripe-js-3.4.1.tgz#065ed8450992e9e80f2b4ffac9f1f97a56291451"
+  integrity sha512-6vFTA7+MzoQyhZDn/D3wWZrUE8M8OSUFJE2Y3O1okfBWr4eCLvMeSoZuYN2xb1KJ3J0bBw96YfKxY75M/H0JZw==
 
 "@swc/helpers@0.4.14":
   version "0.4.14"
