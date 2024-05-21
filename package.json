@@ -6,7 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.4",
+    "@headlessui/react": "^2.0.0",
     "@heroicons/react": "^2.0.13",
     "@portabletext/react": "^3.0.0",
     "@reduxjs/toolkit": "^2.0.0",
