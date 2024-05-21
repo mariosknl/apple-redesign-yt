@@ -1232,13 +1232,13 @@
     redux-thunk "^3.1.0"
     reselect "^5.0.1"
 
-"@sanity/client@^6.18.0":
-  version "6.18.0"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.18.0.tgz#2d1c9707ba1c19a3dca2f86e48fdc9ae1abe58b1"
-  integrity sha512-K6G5ZJm+ZW4LaH8JB8GlER8k97C4cPClcCDj/oEINEL59EZcMGjC2SLlx9zInocoxpcUkpvff2+1VsTkhUvMYA==
+"@sanity/client@^6.18.2":
+  version "6.18.2"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.18.2.tgz#89af21dae492b41d71a19839a50a0a941d7451f4"
+  integrity sha512-2XXPyR5bHFdwi0e5j6z/TLsiZm5skIUsqtsx645rglzhTO6rLzDRwWMn+dsU6DPigf9/9M0i5IJM64eZa9EyZw==
   dependencies:
     "@sanity/eventsource" "^5.0.2"
-    get-it "^8.4.29"
+    get-it "^8.4.30"
     rxjs "^7.0.0"
 
 "@sanity/eventsource@^5.0.2":
@@ -1256,23 +1256,23 @@
   resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-1.0.2.tgz#1ff7259e9bad6bfca4169f21c53a4123f6ac78c3"
   integrity sha512-C4+jb2ny3ZbMgEkLd7Z3C75DsxcTEoE+axXQJsQ75ou0AKWGdVsP351hqK6mJUUxn5HCSlu3vznoh7Yljye4cQ==
 
-"@sanity/preview-kit-compat@1.4.21":
-  version "1.4.21"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit-compat/-/preview-kit-compat-1.4.21.tgz#8550cb46fada333666114819ec51e4e62a842da8"
-  integrity sha512-R26sLOAwSeq0pDgm50KWEpylObpTay0S02FiZjBN3OdYtYU082DIAMrGRp29G1mBKKCcnHf91IvHyBZrCeGZYg==
+"@sanity/preview-kit-compat@1.4.23":
+  version "1.4.23"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit-compat/-/preview-kit-compat-1.4.23.tgz#5db7e995b63efd71e1583670c372b85ed7737544"
+  integrity sha512-tDYZJQ8KU4byo/YW2cVkY+yGFEDKq5Lc4stv4FEZNWvoWfF7UVLQS7AFfS5dUQO6vzoQ6YkWqnCs2YUE0U+Wdg==
 
-"@sanity/preview-kit@5.0.54":
-  version "5.0.54"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.0.54.tgz#3669e75a24c2a78f316617fcce5142460f2926ad"
-  integrity sha512-M3h7Si71iJi2bBoYeo0iebVc/6K9ySAFzcfE9Z1EEGdPpJ054AtN+8viUSWn2to0lw8wHPkqpMy6+NMwm6E29w==
+"@sanity/preview-kit@5.0.58":
+  version "5.0.58"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.0.58.tgz#b7078f1fdb394b07f39fdb4404eecd6c38d182a0"
+  integrity sha512-8JYVkn06ARWiTwL+im02UAm1foquYtomBqJXHAgEe/jSTmZ3O3WNppQ61M4fOVMSAfBoZnoMd/+WmDCyi7vfIA==
   dependencies:
-    "@sanity/preview-kit-compat" "1.4.21"
+    "@sanity/preview-kit-compat" "1.4.23"
     mendoza "3.0.7"
 
-"@sanity/preview-url-secret@^1.6.12":
-  version "1.6.12"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-url-secret/-/preview-url-secret-1.6.12.tgz#02f73f328b775c5c453d01e8aaf6704780f4f22a"
-  integrity sha512-DoXtOVSlT7YjCpRfwhT2B7tpxS+xtxlh0piSCK0ur5NbPy3TvcGtZxuc3I5VCXcWO8O+BEv7BxEjXsctLngPYw==
+"@sanity/preview-url-secret@^1.6.13":
+  version "1.6.13"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-url-secret/-/preview-url-secret-1.6.13.tgz#f15e97f2701d7c624c6c64cf99b96ae055bf0629"
+  integrity sha512-3ZAadWN0bKtoa5A0ZDTerjaBRbxUNpIWWKEl/FF5s6rH84+Hx5ugtqVt0hjzK8SnWwHiq5KQsPuB8T+lqFomGA==
   dependencies:
     "@sanity/uuid" "3.0.2"
 
@@ -1284,12 +1284,12 @@
     "@types/uuid" "^8.0.0"
     uuid "^8.0.0"
 
-"@sanity/visual-editing@1.8.18":
-  version "1.8.18"
-  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-1.8.18.tgz#28a93f0bd2ab030d3209c508db261d8a9c00a4b4"
-  integrity sha512-6IJ2KZHrnWKAtbxTmxW+mFR3HAnnEdnjtKkAs8wK9pJy8tuh58Q788yxXk0gJBxHwfLACx3zS7z5ATn0av7z2g==
+"@sanity/visual-editing@1.8.21":
+  version "1.8.21"
+  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-1.8.21.tgz#4336c4f2aa23b7cd08c603f2c34affb2b5254891"
+  integrity sha512-tX+BMRR6pCEnKItst8DlB5VAgV36vHNM8gM77ItyJCdV6HQNU9YSqiHlxtHb+duQYP41PvEk79/okBPu0pNexQ==
   dependencies:
-    "@sanity/preview-url-secret" "^1.6.12"
+    "@sanity/preview-url-secret" "^1.6.13"
     "@vercel/stega" "0.1.2"
     react "^18.3.1"
     react-dom "^18.3.1"
@@ -1924,10 +1924,10 @@ get-intrinsic@^1.1.3, get-intrinsic@^1.2.4:
     has-symbols "^1.0.3"
     hasown "^2.0.0"
 
-get-it@^8.4.29:
-  version "8.4.29"
-  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.4.29.tgz#475d568c149935bef06c41ec06bc7996c5d9b4a1"
-  integrity sha512-mUSJjmFTdCoVwvf4uj/pCOlaMt8x6OK1nirKcyI5KH7IMyt2h5UGsZGu9NjtRVUFPN0QumWlPqVmG1oFK4mkZQ==
+get-it@^8.4.30:
+  version "8.4.30"
+  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.4.30.tgz#86024d733be02855a582fc5aa20f5eb227ce15e9"
+  integrity sha512-pd361r0zg6zEMobLZQ77VYHgfcC3WBkTwhgZE0+TOkIWMU9406ejVdROxt73fqMZW70w32qxbCi5nAlAwtqABw==
   dependencies:
     decompress-response "^7.0.0"
     follow-redirects "^1.15.6"
@@ -1997,9 +1997,9 @@ groq@^2.2.6:
   integrity sha512-5pf4c91JESCS28IJCgolJq/WBw4Xvf2m8FgZVUlrCig17I+qERosALAHLyyutXu403EYnyCD3DdCLaPb3aGneA==
 
 groq@^3.37.1:
-  version "3.41.0"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-3.41.0.tgz#066f3137fbdeed79ab2ae68d7a24d76eaa50fa99"
-  integrity sha512-nWD3ze0+KxW5vnvEQ+tUQyIkRioSUk96QRTvkSH3oRozkGv1A0t7383HRtwCC4cUlGSd5r5DqHem0ZgEe7xn1Q==
+  version "3.42.1"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-3.42.1.tgz#13126f8de0a866e6aa00d16abb95bfb2c1181846"
+  integrity sha512-/XFGstCQZCEbSMptGfoBziaOoJ7gXb7Imcfs230soi2zFfuxt3/AbL/NlepCyW7D73GKwDvensybXzKKKKARWw==
 
 has-flag@^3.0.0:
   version "3.0.0"
@@ -2352,14 +2352,14 @@ next-auth@^4.18.0:
     uuid "^8.3.2"
 
 next-sanity@^9.0.0:
-  version "9.0.15"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.0.15.tgz#937ab9366026f6a50c819e786bbfe95418c652da"
-  integrity sha512-Y6XVQynCtpaYeSizeAM7Tc1izvOWkIUoDWmJAi/x4ior2D7YAv47vR92rbAGrJzb9hRH9GWHmryT8xb0h/yeMA==
+  version "9.0.20"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.0.20.tgz#e3037d4d70b5c68819d89112e024ea50c35d7b4b"
+  integrity sha512-FlE9Z48RmuH+Gq4GNpNsbL4EdrfbIn/nqcjWNoJIfJwy3G8N9wK22H2hoFuAkFhELscug2M3NlvAKjEvf3SmJg==
   dependencies:
     "@portabletext/react" "^3.0.18"
-    "@sanity/client" "^6.18.0"
-    "@sanity/preview-kit" "5.0.54"
-    "@sanity/visual-editing" "1.8.18"
+    "@sanity/client" "^6.18.2"
+    "@sanity/preview-kit" "5.0.58"
+    "@sanity/visual-editing" "1.8.21"
     groq "^3.37.1"
     history "^5.3.0"
 
