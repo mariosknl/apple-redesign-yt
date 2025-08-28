@@ -2734,9 +2734,9 @@ strip-ansi@^6.0.1:
     ansi-regex "^5.0.1"
 
 stripe@^18.0.0:
-  version "18.3.0"
-  resolved "https://registry.yarnpkg.com/stripe/-/stripe-18.3.0.tgz#0c3049e4d7542d99bb8e33b584ba75dde4776450"
-  integrity sha512-FkxrTUUcWB4CVN2yzgsfF/YHD6WgYHduaa7VmokCy5TLCgl5UNJkwortxcedrxSavQ8Qfa4Ir4JxcbIYiBsyLg==
+  version "18.5.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-18.5.0.tgz#4da5f51c45d5443f6cbf398392ffe12f94b809d6"
+  integrity sha512-Hp+wFiEQtCB0LlNgcFh5uVyKznpDjzyUZ+CNVEf+I3fhlYvh7rZruIg+jOwzJRCpy0ZTPMjlzm7J2/M2N6d+DA==
   dependencies:
     qs "^6.11.0"
 
