@@ -1049,12 +1049,12 @@
     "@portabletext/toolkit" "^2.0.17"
     "@portabletext/types" "^2.0.13"
 
-"@portabletext/react@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@portabletext/react/-/react-4.0.1.tgz#a51a31a24da263f9c01a201c8d6b6acd8df73cd5"
-  integrity sha512-S1MNyGQERpdU5bVUYGDWyyHkTiedwnuOHSMPgLr96yJmLKGcyHTcwPktqcgPuaCxsRUrqPVR89IYFsGW2JKn3w==
+"@portabletext/react@^4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@portabletext/react/-/react-4.0.3.tgz#eee5f24f35746e46e0f9d532c875fe5ecc68c201"
+  integrity sha512-sdVSXbi0L5MBVb1Ch5KwbBPZjW/Oqe6s5ZkPi4LcItzHl8rqY2jB0VxsFaGywZyn8Jc47cGLaOtyBM9HkW/9Hg==
   dependencies:
-    "@portabletext/toolkit" "^3.0.0"
+    "@portabletext/toolkit" "^3.0.1"
     "@portabletext/types" "^2.0.15"
 
 "@portabletext/toolkit@^2.0.17":
@@ -1064,12 +1064,12 @@
   dependencies:
     "@portabletext/types" "^2.0.13"
 
-"@portabletext/toolkit@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@portabletext/toolkit/-/toolkit-3.0.0.tgz#54ae1d7cda180e36b82c0be6e1d89199a55f5f0f"
-  integrity sha512-50otiRkac8unAAU+U9VdhpkZ4FqTG64kzz/6ckeBigKG/cGSU8YZLfmvDhdMH8tw+/uTI7d9Skwqm8RnTHZwDw==
+"@portabletext/toolkit@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@portabletext/toolkit/-/toolkit-3.0.1.tgz#67b3252a0d7191b72614282eaf45b7106fda771a"
+  integrity sha512-z8NGqxKxfP0zuC58hPe8+xFC17qSbQ3nC9DgZmhrr7NUFaENJ6vAHJBsH5QzT7nKUjj++dTn+i4O2Uz9cqiGjA==
   dependencies:
-    "@portabletext/types" "^2.0.13"
+    "@portabletext/types" "^2.0.15"
 
 "@portabletext/types@^2.0.13", "@portabletext/types@^2.0.15":
   version "2.0.15"
@@ -1157,10 +1157,10 @@
     get-it "^8.6.7"
     rxjs "^7.0.0"
 
-"@sanity/client@^7.10.0", "@sanity/client@^7.8.2":
-  version "7.10.0"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-7.10.0.tgz#ac203ece70b87fac3f9866c15b36f5677c28a5b8"
-  integrity sha512-3UV6pJupue7UAZh4g5n0lYjuRsIb4c6IoqMywVLMHYoSOeHJfgSzbexOPGMNqvF+KUywUA0GyFi9cAVeMKofvw==
+"@sanity/client@^7.11.0", "@sanity/client@^7.8.2":
+  version "7.11.0"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-7.11.0.tgz#1319b3d2445e4844ccf84a1013bdb8f522982050"
+  integrity sha512-dZU//1Kk+0Je4TIpMtTY58ly1tNzyx1GQsbU8SD+s7FjxMM1MRCQoq7/vU8YwGNK3P0/DKHGNOmA3LsK5XJkSA==
   dependencies:
     "@sanity/eventsource" "^5.0.2"
     get-it "^8.6.9"
@@ -1256,9 +1256,9 @@
     "@sanity/uuid" "3.0.2"
 
 "@sanity/ui@^3.0.0":
-  version "3.0.8"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-3.0.8.tgz#b0c584dd231324a1f895498f5dff441c638076ff"
-  integrity sha512-z8gG72THNWZ6kTFLSK8/owUwFyDRm7FU7vOK82aYumKks5qN2G1CfzIKbHNfg+cF7cIkWiQyvjPIbWnlMIpi+g==
+  version "3.0.11"
+  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-3.0.11.tgz#27892c7eeaa13c449fda509e52be67e87bd7d384"
+  integrity sha512-191PjlC6Gxa4NvP+7ajM38ds9/GjVyZ2i3dU7i50gehx7JQgOqbu27f6LrzxEQnWFSBVGzNXkTE/yjT6Q+4OvA==
   dependencies:
     "@floating-ui/react-dom" "^2.1.6"
     "@juggle/resize-observer" "^3.4.0"
@@ -1266,7 +1266,7 @@
     "@sanity/icons" "^3.7.4"
     csstype "^3.1.3"
     framer-motion "^12.23.12"
-    react-compiler-runtime "19.1.0-rc.2"
+    react-compiler-runtime "19.1.0-rc.3"
     react-refractor "^4.0.0"
     use-effect-event "^2.0.3"
 
@@ -1378,9 +1378,9 @@
     "@types/unist" "*"
 
 "@types/node@*":
-  version "24.3.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.3.0.tgz#89b09f45cb9a8ee69466f18ee5864e4c3eb84dec"
-  integrity sha512-aPTXCrfwnDLj4VvXrm+UUCQjNEvJgNA8s5F1cvwQU+3KNltTOkBm1j30uNLyqqPNe7gE3KFzImYoZEfLhp4Yow==
+  version "24.3.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.3.1.tgz#b0a3fb2afed0ef98e8d7f06d46ef6349047709f3"
+  integrity sha512-3vXmQDXy+woz+gnrTvuvNrPzekOi+Ds0ReMxw0LzBiK3a+1k0kQn9f2NWk+lgD4rJehFUmYy2gMhJ2ZI+7YP9g==
   dependencies:
     undici-types "~7.10.0"
 
@@ -1940,10 +1940,10 @@ groq@^2.2.6:
   resolved "https://registry.yarnpkg.com/groq/-/groq-2.33.2.tgz#3a85c85a1e43e79bba77f171f23997f541d61010"
   integrity sha512-5pf4c91JESCS28IJCgolJq/WBw4Xvf2m8FgZVUlrCig17I+qERosALAHLyyutXu403EYnyCD3DdCLaPb3aGneA==
 
-groq@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-4.6.0.tgz#6a8706c1578d0cc2bab356bdb57be46afe53c073"
-  integrity sha512-nQdkN9z5cCS51qOFk7wP+BpPgCOqVRpQF+U4hPezO5PrIA0HBIuPwwZayjnvP93CXsMnNJa0GnQn7/Xlam8DiQ==
+groq@^4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-4.6.1.tgz#61f6faf2faa2d085365e4624ab1b719dc95835b9"
+  integrity sha512-Ef2JKBrOFJAtENS3l9ZcreJYjwv6Ri1T2tP7OyxwCtLO+jfncoSQNBAzDmfAsS6oaUld3DDlJ2ZfXWv32QWdEw==
 
 has-symbols@^1.1.0:
   version "1.1.0"
@@ -2249,16 +2249,16 @@ next-auth@^4.18.0:
     uuid "^8.3.2"
 
 next-sanity@^10.0.0:
-  version "10.0.15"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-10.0.15.tgz#953906ee1c36134b7058a0ae76d78b8860245e44"
-  integrity sha512-tAiq2IelI8jqNvUFZEFtYro5Mn5+jYEJWNkqn81rTSWYpNN2aSNFrB3ahqXctpeJr2Dq7zRqABOi+qfkwLUzHg==
+  version "10.0.16"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-10.0.16.tgz#70e2de0168e8f30bcc1f095f77632b3f9d93397b"
+  integrity sha512-x3BdTyYbtJgRg2a7gQPMsf45f2GfUvnnyRlMBlisW/psK5oTEB8mIEUjR7B/zJhVGqDQADzFzUg4Zi/TSCUxLw==
   dependencies:
-    "@portabletext/react" "^4.0.1"
-    "@sanity/client" "^7.10.0"
+    "@portabletext/react" "^4.0.3"
+    "@sanity/client" "^7.11.0"
     "@sanity/next-loader" "^2.1.0"
     "@sanity/preview-url-secret" "^2.1.14"
     "@sanity/visual-editing" "^3.0.3"
-    groq "^4.6.0"
+    groq "^4.6.1"
     history "^5.3.0"
 
 next@latest:
@@ -2475,6 +2475,11 @@ react-compiler-runtime@19.1.0-rc.2:
   version "19.1.0-rc.2"
   resolved "https://registry.yarnpkg.com/react-compiler-runtime/-/react-compiler-runtime-19.1.0-rc.2.tgz#6fc2ab85bf76138f9458b5c2050728d34cb7740f"
   integrity sha512-852AwyIsbWJ5o1LkQVAZsVK3iLjMxOfKZuxqeGd/RfD+j1GqHb6j3DSHLtpu4HhFbQHsP2DzxjJyKR6luv4D8w==
+
+react-compiler-runtime@19.1.0-rc.3:
+  version "19.1.0-rc.3"
+  resolved "https://registry.yarnpkg.com/react-compiler-runtime/-/react-compiler-runtime-19.1.0-rc.3.tgz#b6bb74777ebbd27dcbf830de0285387c92409c32"
+  integrity sha512-Cssogys2XZu6SqxRdX2xd8cQAf57BBvFbLEBlIa77161lninbKUn/EqbecCe7W3eqDQfg3rIoOwzExzgCh7h/g==
 
 react-currency-formatter@^1.1.0:
   version "1.1.0"
@@ -2951,9 +2956,9 @@ wrappy@1:
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
 
 xstate@^5.20.1:
-  version "5.20.2"
-  resolved "https://registry.yarnpkg.com/xstate/-/xstate-5.20.2.tgz#627249d8aeaf19e045f0cbbdb24815d509fd2130"
-  integrity sha512-GZmLmc+WPKfFRxuTDAxCg0cUhS/ZnWaRD86DO8MKizeK4a050jd5k7UNnIQ2jJDWRig2/r0tmVXeezUNIhoz5Q==
+  version "5.21.0"
+  resolved "https://registry.yarnpkg.com/xstate/-/xstate-5.21.0.tgz#9b44cadbc3e0e570e07c1e270af893b9109bdbdf"
+  integrity sha512-y4wmqxjyAa0tgz4k3m/MgTF1kDOahE5+xLfWt5eh1sk+43DatLhKlI8lQDJZpvihZavjbD3TUgy2PRMphhhqgQ==
 
 yallist@^3.0.2:
   version "3.1.1"
