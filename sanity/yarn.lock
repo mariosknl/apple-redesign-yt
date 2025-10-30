@@ -2207,9 +2207,9 @@
     rxjs "^6.5.3"
 
 "@sanity/vision@^4.0.0":
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-4.11.0.tgz#47151626c66e818fa6ee111bb2b947b4acb22ced"
-  integrity sha512-59CauMg6uxGkFYB6Lrhc1/fT+oeBqo+VR9uQqPLEhr7Nb5oRgTVuK2cuyz9dNS0m+ZO9mrYbm3OObyIuZYMYQA==
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-4.12.0.tgz#dec166040dabed454fc23dfaca9b30c4886f2354"
+  integrity sha512-Qdl/p7TMF3Zwu3rnDEc6I8FuzvAChfeKlh2xkEZIXYhOny5T5PL1mR9OI9N8osjvA2hPm8qqr21Bteu6tQDZpw==
   dependencies:
     "@codemirror/autocomplete" "^6.19.0"
     "@codemirror/commands" "^6.9.0"
