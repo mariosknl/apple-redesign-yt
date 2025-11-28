@@ -1027,14 +1027,6 @@
   resolved "https://registry.yarnpkg.com/@phc/format/-/format-1.0.0.tgz#b5627003b3216dc4362125b13f48a4daa76680e4"
   integrity sha512-m7X9U6BG2+J+R1lSOdCiITLLrxm+cWlNI3HUFA92oLO77ObGNzaKdh8pMLqdZcshtkKuV84olNNXDfMc4FezBQ==
 
-"@portabletext/react@^4.0.0":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@portabletext/react/-/react-4.0.3.tgz#eee5f24f35746e46e0f9d532c875fe5ecc68c201"
-  integrity sha512-sdVSXbi0L5MBVb1Ch5KwbBPZjW/Oqe6s5ZkPi4LcItzHl8rqY2jB0VxsFaGywZyn8Jc47cGLaOtyBM9HkW/9Hg==
-  dependencies:
-    "@portabletext/toolkit" "^3.0.1"
-    "@portabletext/types" "^2.0.15"
-
 "@portabletext/react@^5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@portabletext/react/-/react-5.0.0.tgz#6971b6967d9934a22f5217f196791a44387e6978"
@@ -1043,24 +1035,12 @@
     "@portabletext/toolkit" "^4.0.0"
     "@portabletext/types" "^3.0.0"
 
-"@portabletext/toolkit@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@portabletext/toolkit/-/toolkit-3.0.1.tgz#67b3252a0d7191b72614282eaf45b7106fda771a"
-  integrity sha512-z8NGqxKxfP0zuC58hPe8+xFC17qSbQ3nC9DgZmhrr7NUFaENJ6vAHJBsH5QzT7nKUjj++dTn+i4O2Uz9cqiGjA==
-  dependencies:
-    "@portabletext/types" "^2.0.15"
-
 "@portabletext/toolkit@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@portabletext/toolkit/-/toolkit-4.0.0.tgz#d56479ce31beb02c5a97d8864ef8dd6d44a185fd"
   integrity sha512-Jj/QIy3vzZCNcxiUGM7KjGhUhyVjch+9pOzotWRARPNe07R6nbF/cRsKL70q5Xizf+6PVtFYwks4CSXKInC+wg==
   dependencies:
     "@portabletext/types" "^3.0.0"
-
-"@portabletext/types@^2.0.15":
-  version "2.0.15"
-  resolved "https://registry.yarnpkg.com/@portabletext/types/-/types-2.0.15.tgz#afc1231fd66965d777c6233aea79abfaf8716351"
-  integrity sha512-2e6i2gSQsrA/5OL5Gm4/9bxB9MNO73Fa47zj+0mT93xkoQUCGCWX5fZh1YBJ86hszaRYlqvqG08oULxvvPPp/Q==
 
 "@portabletext/types@^3.0.0":
   version "3.0.0"
