@@ -2477,10 +2477,10 @@ property-information@^7.0.0:
   resolved "https://registry.yarnpkg.com/property-information/-/property-information-7.1.0.tgz#b622e8646e02b580205415586b40804d3e8bfd5d"
   integrity sha512-TwEZ+X+yCJmYfL7TPUOcvBZ4QfoT5YenQiJuX//0th53DE6w0xxLEtfK3iyryQFddXuvkIk51EEgrJQ0WJkOmQ==
 
-qs@^6.11.0:
-  version "6.14.0"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.14.0.tgz#c63fa40680d2c5c941412a0e899c89af60c0a930"
-  integrity sha512-YWWTjgABSKcvs/nWBi9PycY/JiPJqOD4JA6o9Sej2AtvSGarXxKC3OQSk4pAarbdQlKAh5D4FCQkJNkW+GAn3w==
+qs@^6.14.1:
+  version "6.14.1"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.14.1.tgz#a41d85b9d3902f31d27861790506294881871159"
+  integrity sha512-4EK3+xJl8Ts67nLYNwqw/dsFVnCf+qR7RgXSK9jEEm9unao3njwMDdmsdvoKBKHzxd7tCYz5e5M+SnMjdtXGQQ==
   dependencies:
     side-channel "^1.1.0"
 
@@ -2769,11 +2769,11 @@ strip-ansi@^6.0.1:
     ansi-regex "^5.0.1"
 
 stripe@^20.0.0:
-  version "20.1.0"
-  resolved "https://registry.yarnpkg.com/stripe/-/stripe-20.1.0.tgz#e7fe100281464f7ab186cb161ca5ab2619e5e067"
-  integrity sha512-o1VNRuMkY76ZCq92U3EH3/XHm/WHp7AerpzDs4Zyo8uE5mFL4QUcv/2SudWsSnhBSp4moO2+ZoGCZ7mT8crPmQ==
+  version "20.1.2"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-20.1.2.tgz#708e1ccaf73334608f97c8a8ded34e73c8fe9bcd"
+  integrity sha512-qU+lQRRJnTxmyvglYBPE24/IepncmywsAg0GDTsTdP2pb+3e3RdREHJZjKgqCmv0phPxN/nmgNPnIPPH8w0P4A==
   dependencies:
-    qs "^6.11.0"
+    qs "^6.14.1"
 
 styled-jsx@5.1.0:
   version "5.1.0"
