@@ -2348,9 +2348,9 @@
     rxjs "^6.5.3"
 
 "@sanity/vision@^5.0.0":
-  version "5.17.1"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-5.17.1.tgz#89107c7f624ceaeefd2f01690861f1acbce485cf"
-  integrity sha512-z5AJwcBKd5LGDigZ5MQBczIz55hcIu9cowr0xpjKNxBsBQuZ+nHDrbQLgZZepMGB851jstjp/2no+wSlDpaQSA==
+  version "5.18.0"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-5.18.0.tgz#83000e9de516527a4a2aab8d741b533ee91b524c"
+  integrity sha512-a0NRWKanHWXj+xPMralcWT0U1BBCoP4YKpJv284QPojAjYOhF+ADfuMt8aZwFO3TrXOlRQUDRtrmhhbau2M/3w==
   dependencies:
     "@codemirror/autocomplete" "^6.20.0"
     "@codemirror/commands" "^6.10.1"
