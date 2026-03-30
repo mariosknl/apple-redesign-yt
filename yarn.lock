@@ -1043,9 +1043,9 @@
   integrity sha512-pSkqZ//UP/f2sS9T7IvHLfEWDPTX0vRyXJnAUNisKvO3eF3e1xdhDX7dix/X3Z3lnN4UjSwOzclAI87JFbOwmQ==
 
 "@noble/ed25519@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@noble/ed25519/-/ed25519-3.0.0.tgz#720d4cdb6b5f632e29164a7e9d5cdfeb82a7ac86"
-  integrity sha512-QyteqMNm0GLqfa5SoYbSC3+Pvykwpn95Zgth4MFVSMKBB75ELl9tX1LAVsN4c3HXOrakHsF2gL4zWDAYCcsnzg==
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@noble/ed25519/-/ed25519-3.0.1.tgz#d285ef37dd97cb4733593e269aaff1932a54c80f"
+  integrity sha512-t/T8LuK0ym8ALQudCCQCtrRdMSxBnRgHXw+wg+YsSlE6d+on7sX3flqlSJ2mOs9xEuchM36kj9SuX5MG7pXQMA==
 
 "@noble/hashes@^2.0.0":
   version "2.0.1"
@@ -1199,9 +1199,9 @@
   integrity sha512-O9MnckiDsphFwlRS8Q3kj3n+JYUZ0UzKRujnSikMZOKI0dayucRe4U2XvxikRhJnFhcEJXW2RkWJoBaCoup9Sw==
 
 "@sanity/image-url@^2.0.0":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-2.0.3.tgz#58dfa1025c4b0f70b49d339e7d5ee55117d51cf2"
-  integrity sha512-A/vOugFw/ROGgSeSGB6nimO0c35x9KztatOPIIVlhkL+zsOfP7khigCbdJup2FSv6C03FX2XaUAhXojCxANl2Q==
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-2.1.1.tgz#58fc012e297e997792d94dc5f081424967c18aa7"
+  integrity sha512-qVXsF1teWR6FO3ZFAz46HDcRU+E6EQkpyncPnkGOzeJ1PgnaOiWMVbiSrZtX10s3txzzu/tAjKwbxbGHfDWgGw==
   dependencies:
     "@sanity/signed-urls" "^2.0.2"
 
