@@ -1154,10 +1154,10 @@
     redux-thunk "^3.1.0"
     reselect "^5.1.0"
 
-"@sanity/client@^7.18.0", "@sanity/client@^7.9.0":
-  version "7.18.0"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-7.18.0.tgz#ae737be6bc0a5eee2e29b7f56d2b046fd2a2361d"
-  integrity sha512-Zu0Ybn8EH3RhJaPKEnFMsuP2/S00WnJvFTVnmy9PEJQG+9VCDdoM+sfoTnSkf4x2XYlllE81sxBasowrYYzJaQ==
+"@sanity/client@^7.20.0", "@sanity/client@^7.9.0":
+  version "7.20.0"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-7.20.0.tgz#ec10836112336e6469d191149f184b84a1f44a0c"
+  integrity sha512-uKwfqA+UfyWH6QzqpDD2DQnZu+WRa2iCM3OJ9AoyDZB9oHLl2NKI+9mX1xEZ7PiBuq09pogI7sxKaTKnaB6d+g==
   dependencies:
     "@sanity/eventsource" "^5.0.2"
     get-it "^8.7.0"
@@ -1293,10 +1293,10 @@
   resolved "https://registry.yarnpkg.com/@sanity/visual-editing-types/-/visual-editing-types-2.0.5.tgz#400833368a732186ee655d529945ced54261a757"
   integrity sha512-nNlptEGaZ64JI2sJBgJk+uAKhojAOeur41JYNTYbCIVJ/gY0Ix9AK/euBCN+aIm0ldgPU7J/h9ju9T36jJWwQQ==
 
-"@sanity/visual-editing@^5.3.1":
-  version "5.3.1"
-  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-5.3.1.tgz#011ea39922a84c409512a306aaa73166bc55c77a"
-  integrity sha512-UUyQLuPmBe4K7d1oJZL210WOXPMN6A6pxndA15s7MrfEgMfQhxQwaUfhZoiSrYLNz+HCF4oayaJUvWi94KCRmA==
+"@sanity/visual-editing@^5.3.3":
+  version "5.3.3"
+  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-5.3.3.tgz#758b0d9044cb433d722d140fc31458a364877bf4"
+  integrity sha512-J8ABr0MhPEdYv5tMBLaijE2Wr3b7/RIXJOx9Hs+scXIsBOeklGF7bLJQbi18hnmNfTCJtZd7RoHap4rwPydLWg==
   dependencies:
     "@sanity/comlink" "^4.0.1"
     "@sanity/icons" "^3.7.4"
@@ -1827,10 +1827,10 @@ groq@^2.2.6:
   resolved "https://registry.yarnpkg.com/groq/-/groq-2.33.2.tgz#3a85c85a1e43e79bba77f171f23997f541d61010"
   integrity sha512-5pf4c91JESCS28IJCgolJq/WBw4Xvf2m8FgZVUlrCig17I+qERosALAHLyyutXu403EYnyCD3DdCLaPb3aGneA==
 
-groq@^5.17.1:
-  version "5.17.1"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-5.17.1.tgz#9884be5c48675f97875210be0011ce0c677201cd"
-  integrity sha512-KxBNTwLtv/lUZHxU2uSfsL6mZJFMS4qllsTcHhBsLPm39fXT0NZWy5qUzOt6ejCwFGUw/F+UdOwAt1BCGCdYuQ==
+groq@^5.18.0:
+  version "5.19.0"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-5.19.0.tgz#d9559bff0210306eef03c8008c24fc20435161a9"
+  integrity sha512-59XhBOC5pqNg4+3yPKerERkq2LS9qUCmBrPC2i2d5HwYK5FR+MGZb+1g7jBOUSenB2UIxBVwM537YVXr+lzDvQ==
 
 has-unicode@^2.0.1:
   version "2.0.1"
@@ -2127,19 +2127,19 @@ next-auth@^4.18.0:
     uuid "^8.3.2"
 
 next-sanity@^12.0.0:
-  version "12.1.3"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-12.1.3.tgz#f111842828d3ac5a7cd7e5da67694a953848371d"
-  integrity sha512-L2EaawNGCWHs29jQeh3pIVtTZn0ELQ21qxeNo4oNkiT8Uu3f6No4/SJgKzwvUQHVYviqmg0vLc3t3W0hHMfX2Q==
+  version "12.2.1"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-12.2.1.tgz#24f285279125d90416d4cad0942a9a3468aa9fdf"
+  integrity sha512-hq22hrevXSfYZIOj6LeyrxY28LRp9X8ERr3049M4Eya8YZUDrXHnKXnF50nvOCoqm6/dF2gl6fMP2Ouy6HNolA==
   dependencies:
     "@portabletext/react" "^6.0.3"
-    "@sanity/client" "^7.18.0"
+    "@sanity/client" "^7.20.0"
     "@sanity/comlink" "^4.0.1"
     "@sanity/presentation-comlink" "^2.0.1"
     "@sanity/preview-url-secret" "^4.0.4"
-    "@sanity/visual-editing" "^5.3.1"
+    "@sanity/visual-editing" "^5.3.3"
     "@sanity/webhook" "^4.0.4"
     dequal "^2.0.3"
-    groq "^5.17.1"
+    groq "^5.18.0"
     history "^5.3.0"
     server-only "^0.0.1"
 
@@ -2774,9 +2774,9 @@ wrappy@1:
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
 
 xstate@^5.24.0, xstate@^5.26.0:
-  version "5.28.0"
-  resolved "https://registry.yarnpkg.com/xstate/-/xstate-5.28.0.tgz#d776fc2aad92f2e6521249025b96c85a254e2d40"
-  integrity sha512-Iaqq6ZrUzqeUtA3hC5LQKZfR8ZLzEFTImMHJM3jWEdVvXWdKvvVLXZEiNQWm3SCA9ZbEou/n5rcsna1wb9t28A==
+  version "5.30.0"
+  resolved "https://registry.yarnpkg.com/xstate/-/xstate-5.30.0.tgz#00f47846d3c45409d6154c1ea96da046c4c151d1"
+  integrity sha512-mIzIuMjtYVkqXq9dUzYQoag7b/dF1CBS/yhliuPLfR0FwKPC18HiUivb/crcqY2gknhR8gJEhnppLg6ubQ0gGw==
 
 yallist@^3.0.2:
   version "3.1.1"
