@@ -2580,10 +2580,10 @@ strip-ansi@^6.0.1:
   dependencies:
     ansi-regex "^5.0.1"
 
-stripe@^20.0.0:
-  version "20.4.1"
-  resolved "https://registry.yarnpkg.com/stripe/-/stripe-20.4.1.tgz#547d8a22a97e85a239895f0ffe14de21d96f060a"
-  integrity sha512-axCguHItc8Sxt0HC6aSkdVRPffjYPV7EQqZRb2GkIa8FzWDycE7nHJM19C6xAIynH1Qp1/BHiopSi96jGBxT0w==
+stripe@^22.0.0:
+  version "22.0.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-22.0.0.tgz#3a17a626dbf0376ebb1031ffee8649c752c84870"
+  integrity sha512-q1UgXXpSfZCmkyzZEh3vFEWT7+ajuaFGqaP9Tsi2NMtwlkigIWNr+KBIUQqtNeNEsreDKgdn+BP5HRW9JDj22Q==
 
 styled-jsx@5.1.0:
   version "5.1.0"
