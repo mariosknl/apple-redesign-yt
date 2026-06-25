@@ -2583,9 +2583,9 @@ strip-ansi@^6.0.1:
     ansi-regex "^5.0.1"
 
 stripe@^22.0.0:
-  version "22.2.2"
-  resolved "https://registry.yarnpkg.com/stripe/-/stripe-22.2.2.tgz#68b060def7624cb119523d50c95beb4aa417a081"
-  integrity sha512-lRXLiarjW/I2QVa6QuFfz1Ma7Dc2yBQ7vlYH6NEmp5htMJNQGfiWExmOv0McfqY5wMCGV8DLuCvsyVRIPJlUUQ==
+  version "22.3.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-22.3.0.tgz#ecb75bf75f2d5c0466b0b6b4280066ee0f354c09"
+  integrity sha512-ypO6xjVrMWs9SmIMeHr8naCx3dAQ0clxMdUTxn7Ejd7hmY9meBGfE+N4pVHkf9sUNebAHp6uJo6mV3GxDIc2cA==
 
 styled-jsx@5.1.0:
   version "5.1.0"
