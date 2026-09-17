@@ -2501,9 +2501,9 @@
     rxjs "^6.5.3"
 
 "@sanity/vision@^6.0.0":
-  version "6.14.0"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-6.14.0.tgz#af9ad5b76ee2319650d2bbc7f6f4646173bee752"
-  integrity sha512-96Wdr8BbA2NQRyyBZTG2nWrrgTOYJVT7epIQeQMNVlkpya3TGawKTL/GsRdEh0Su/ZrRctA/4bzMrKtc25lG4g==
+  version "6.15.0"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-6.15.0.tgz#cbc2009fd423877e6a4188c5131c18a769c46dd9"
+  integrity sha512-SDNRBkAqN9Kszx/LtF6UEyePMiZ3Ozh537TcvxXK8ZA5rUMGwie6r6Io+10WAifBJRtoA+s7Twh0AzVi2brQtQ==
   dependencies:
     "@codemirror/autocomplete" "^6.20.3"
     "@codemirror/commands" "^6.11.0"
@@ -6040,10 +6040,10 @@ framer-motion@6.3.0:
   optionalDependencies:
     "@emotion/is-prop-valid" "^0.8.2"
 
-framer-motion@^13.3.0:
-  version "13.3.0"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-13.3.0.tgz#1534c50981b8aad11473811083fa70ada803aa76"
-  integrity sha512-nry9figMPgd/7tTy9zzGRsD+kJ9tjZ74sKJ3jFBa7j6DTBIM04T6eBgneFLXCB0151wychIxsiojPlcG4JxeoA==
+framer-motion@^13.4.0:
+  version "13.4.0"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-13.4.0.tgz#2a7171731ce00028ea6c12527e8ee97427e26c86"
+  integrity sha512-HCpqKM9BTu6UYKtj0u6J1QNxojnnirNcghcSDZ+SkpiL3myxvtsgXPS3ZGEELC2eSma7YiA937rAEXtRyydSXQ==
   dependencies:
     motion-dom "^13.3.0"
     motion-utils "^13.3.0"
@@ -8177,11 +8177,11 @@ motion-utils@^13.3.0:
   integrity sha512-sgSschQp7EseHInIlR7hBbMuvet3RA0bs28KPZAXJcGKGdxHGvh1ogpYDilY3bOMtl73EqPNmp75sAKHYPU5sg==
 
 motion@^13.2.0:
-  version "13.3.0"
-  resolved "https://registry.yarnpkg.com/motion/-/motion-13.3.0.tgz#a60678695226bcf3e90c73e0c01ea4f453c74fdf"
-  integrity sha512-WHLzq1EQCoJO9S+HSDl9WlJYUpCsSAGYPoI0R4qO9ZScx7uLhpYzpoF8iobYvG248idzkl35pAShfWftEUjsdQ==
+  version "13.4.0"
+  resolved "https://registry.yarnpkg.com/motion/-/motion-13.4.0.tgz#09d0e3699ffdd24e66a1cda496948baa1ccd1630"
+  integrity sha512-aiNSA29N+vgV5p5cJSB5cFzx8KTuuxB99z8zGtxsaqlwKtBK6sq8YgPRpkVQLkbJMOcLDU0q/ShdT95qpBy/0g==
   dependencies:
-    framer-motion "^13.3.0"
+    framer-motion "^13.4.0"
     tslib "^2.4.0"
 
 ms@2.0.0:
